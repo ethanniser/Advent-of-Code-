@@ -7,9 +7,9 @@ cd Day_$1
 touch input.txt
 touch test.txt
 touch Day$1-Part1.ts
-printf "////dont forget to change index.ts\nexport default async function Day$1() {\n  const data = await Deno.readTextFile(\"Day_$1/input.txt\");\n  console.log(data);\n}" > Day$1-Part1.ts
+printf "//dont forget to change index.ts\nexport default async function Day$1() {\n  const data = await Deno.readTextFile(\"Day_$1/input.txt\");\n  console.log(data);\n}" > Day$1-Part1.ts
 touch Day$1-Part2.ts
-printf "////dont forget to change index.ts\nexport default async function Day$1() {\n  const data = await Deno.readTextFile(\"Day_$1/input.txt\");\n  console.log(data);\n}" > Day$1-Part2.ts
+printf "//dont forget to change index.ts\nexport default async function Day$1() {\n  const data = await Deno.readTextFile(\"Day_$1/input.txt\");\n  console.log(data);\n}" > Day$1-Part2.ts
 echo "NEW DAY TEMPLATE WRITTEN SUCESSFULLY"
 
 cd ../
