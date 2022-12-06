@@ -1,2 +1,2 @@
-import main from './Day_5/Day5-Part2.ts';
+import main from './Day_6/Day6-Part2.ts';
 main();
